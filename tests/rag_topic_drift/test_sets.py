@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 from collections import Counter
-from src.drift.utils.sets import (
+from src.evidently.llm.rag.rag_utils.sets import (
     compute_union_values,
     compute_intersection_values,
 )
