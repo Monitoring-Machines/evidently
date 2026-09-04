@@ -1,9 +1,9 @@
 import pandas as pd
 from dataclasses import dataclass
 from typing import Any,Dict,List
-from src.ragscope.topic_drift.topic_distr import get_topic_distr
-from src.ragscope.utils.categorical import detect_mismatches
-from src.ragscope.drift import SimilarityCategoricalFeatureDrift
+from src.evidently.llm.rag.topic_drift.topic_distr import get_topic_distr
+from src.evidently.llm.rag.rag_utils.categorical import detect_mismatches
+from src.evidently.llm.rag.drift import SimilarityCategoricalFeatureDrift
 
 
 @dataclass
