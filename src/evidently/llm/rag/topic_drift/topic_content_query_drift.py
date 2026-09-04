@@ -2,7 +2,7 @@ import pandas as pd
 from dataclasses import dataclass
 from typing import Any,Dict,List
 from src.evidently.llm.rag.topic_drift.topic_distr import get_topic_distr
-from src.evidently.llm.rag.utils.categorical import detect_mismatches
+from src.evidently.llm.rag.rag_utils.categorical import detect_mismatches
 from src.evidently.llm.rag.drift import SimilarityCategoricalFeatureDrift
 
 
